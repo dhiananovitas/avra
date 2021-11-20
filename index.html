@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<head>
+    <title>Avra Beauty Care</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<div class="wrap-content">
+
+    <!-- menu baru  -->
+    <nav class="global-sticky-nav">
+        <div class="wrap-section">
+          <a href="https://www.avrabeautycare.com" class="logo-landing-page"><img src="assets/logo-avra.svg" alt="logo avra" height="35"></a>
+          <input id="burger" type="checkbox">
+          <label for="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <div class="menus">
+            <a href="#hero-header">Home </a> 
+            <a href="#product">Product </a> 
+            <a href="#about">About </a>
+            <a href="#order">Order </a>
+          </div>
+        </div>
+      </nav>
+      
+      
+    <!-- <div class="menu-wrapper">
+        <div class="wrap-content">
+            <header class="header">
+                <a href="#home" class="logo">
+                    <div class="logo-landing"><img src="assets/logo-avra.svg" alt="logo avra"></div>
+                </a>
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
+                <li><a href="#about">Home</a></li>
+                <li><a href="#contact">Product</a></li>
+                <li><a href="#careers">About</a></li>
+                <li><a href="#contact">Order</a></li>
+                </ul>
+            </header>
+        </div>
+    </div> -->
+
+    <section id="hero-header" class="hero-header page-section">
+        <picture>
+            <source media="(min-width:768px)" srcset="assets/hero-img.png">
+            <source media="(min-width:320px)" srcset="assets/hero-img-mobile.png">
+            <img src="assets/hero-img.png" alt="hero background" class="hero-img">
+        </picture>
+        
+        <h1 class="hero-headline">AVRA BEAUTY CARE</h1>
+        <p>Best Quality Skincare</p>
+        <button class="btn-start">Get Started</button>
+    </section>
+
+    <section id="product" class="product page-section">
+        <div class="wrap-product">
+            <div class="wrap-img1">
+                <picture>
+                    <source media="(min-width:768px)" srcset="assets/detail.png">
+                    <source media="(min-width:320px)" srcset="assets/detail-mobile.png">
+                    <img src="assets/detail.png" alt="detail img" class="detail-img">
+                </picture>
+            </div>
+
+            <div class="wrap-detail-capt">
+                <h1>AVRA BEAUTY CARE</h1>
+                <p class="detail-h2">Plan B Face Oil for brighter barrier</p>
+                <button class="price-disp">Rp 189.000</button>
+                <br><br>
+                <table>
+                  <tr><td>Kondisi</td><td>: Baru</td></tr>
+                  <tr><td>Berat</td><td>: 150 Gram</td></tr>
+                  <tr><td>Kategori</td><td>: Minyak Wajah</td></tr>
+                  <tr><td>Etalase</td><td>: Semua Etalase</td></tr>
+                </table>
+                <br><br>
+                <b>Your plan didn't work?
+                  <br>We've got you covered!</b>
+                <br><br>
+                <p class="detail-caption">
+                  Formulated with fermentation technology this face oil rapidly absorbed to whatever your skin type even oily.
+                  With an exhaustive of nourishing oils, it brings all goodness from nature to hydrate and help brighten your skin.
+                </p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="about" class="about page-section">
+      <div class="wrapper">
+          <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="assets/intro1.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="assets/intro2.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="assets/intro3.jpg" style="width:100%">
+            </div>
+        
+            <div class="mySlides fade">
+              <img src="assets/intro4.jpg" style="width:100%">
+            </div>
+            <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+
+        <!-- end slideshow1 -->
+        <div class="feature">
+          <div class="feature-img1">
+            <picture>
+              <source media="(min-width:768px)" srcset="assets/detail.png">
+              <source media="(min-width:320px)" srcset="assets/detail-mobile.png">
+              <img src="assets/detail.png" alt="detail img" class="feature-img">
+            </picture>
+            <div class="feature-caption1">
+                <h1>Skincare with complete benefit</h1>
+                <p>Satu produk bisa mengatasi masalah wajahmu</p>
+            </div>
+          </div>
+          <div class="feature-img2">
+            <picture>
+              <source media="(min-width:768px)" srcset="assets/detail.png">
+              <source media="(min-width:320px)" srcset="assets/detail-mobile.png">
+              <img src="assets/detail.png" alt="detail img" class="feature-img">
+            </picture>
+            <div class="feature-caption2">
+                <h1>Safe to use</h1>
+                <p>BPOM Registered Products</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </section>
+
+    <section id="order" class="order">
+
+    </section>
+
+
+
+</div>
+
+
+
+  
+  <script>
+  var slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+  </script>
+
+
+<script>
+  var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+</script>
+
+
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.js"></script> -->
+
+<!-- <script type="text/javascript">
+
+    $(".global-sticky-nav").attr("style","display: none;");
+    $(".main-banner").attr("style","margin-top:0px");
+    $(".seiko5-footer").attr("style","display: none;");
+  
+
+                                
+  $(".menus a").click(function(){
+    $('.global-sticky-nav input').prop('checked', false);
+  });
+  
+  $(window).scroll(function() {
+    var scrollDistance = $(window).scrollTop();
+    $('.page-section').each(function(i) {
+      if ($(this).position().top-100<= scrollDistance) {
+        $('.menus a.active').removeClass('active');
+        $('.menus a').eq(i).addClass('active');
+      }
+    }
+                           );
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+      $('.menus a.active').removeClass('active');
+      $('.menus a:last-child').addClass('active');
+    }
+  }
+                  ).scroll();
+
+
+  $(window).scroll(function() {
+        var scrollDistance = $(window).scrollTop();
+        $('.page-section').each(function(i) {
+          if ($(this).position().top-100<= scrollDistance) {
+            $('.menus a.active').removeClass('active');
+            $('.menus a').eq(i).addClass('active');
+          }
+        }
+                               );
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+          $('.menus a.active').removeClass('active');
+          $('.menus a:last-child').addClass('active');
+        }
+      }
+  ).scroll();
+</script> -->
+
+
+<script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $(".menus a").on('click', function(event) {
+  
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+  
+        // Store hash
+        var hash = this.hash;
+  
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+     
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+      
+    });
+
+    
+  });
+  </script>
+
+
+
+
+  
+</body>
+</html>
